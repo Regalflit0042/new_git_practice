@@ -1,0 +1,15 @@
+Welcome to git, It is a version control system.
+Git work on local repo and working directory.
+In git there are serveral stages are there, And we have to go through the stages to upload our code or file in central repo,
+which is known as Github.
+So the stages are:
+
+Working area > git init > It will enter to git woring area as master branch > create any file there or any other branch after creating it > git add . > It will add all the things to staging area > git commit -m ""[Dgive any comment" > it will commit the things to local repo > git log > to see all the recent acti[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[C[C with head branch [C[C[C[C[C[C[C[C[C[C[C[C[C[C> git log > it will show all the activity > git log --online[D[D[D[De[C[C[D[D[[C[Cline > it will show all the activity in a short format in some lines > git show ""[B[A[Dcommit id" > it will show all the details of that commit with all data > git remote add origin ""[Dgithub url" > it will connect with the central repo > git config --global uer.name[D[D[D[D[D[D[Ds[C[C[D[D[er.[C[Cname ""[B[A[Dusername" > it will add username to git > git config --global user.email "email-id" > it will add the email to git > git config --list > you can see all the configuration data inside it > git push origin master > to push all data into central repo > go to github refresh it and you can see all the data
+
+git pull origin master > to pull data into local data to [D[Cdo some changes[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D repo[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C, do changes and again push it into central repo > git clone or fetch > to pull data from central repo to local repo but it work on only one way which is central -> local repo.
+
+git branch > to see all the branch > git branch anyname > to create new feature branches > git checkout branch name > to switch from one branch to another.
+
+git merge branch name > to merge two branch to interchange all the data from one branch to another, to do it we have to get into that branch and do merge.
+
+git branch -d branch name > it will delete the branch > git revert or reset "commit id" > to send the commit to the previous stage > git rebase -i [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D or cherry pick ""[Dcommit id" > it will send the commit to previous stage > git rebase -i > to do some edit we can use this command >
